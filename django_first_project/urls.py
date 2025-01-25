@@ -21,6 +21,6 @@ from products import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("about/", views.index),
-    path("details/", views.details),
+    path("biography/", views.biography),
+    path("pictures/", views.picture),
 ]
